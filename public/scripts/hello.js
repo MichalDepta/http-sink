@@ -1,5 +1,5 @@
 function hello() {
-    const serverUrl = 'localhost:5000';
+    const serverUrl = '';
 
     var request = new XMLHttpRequest();
     request.open('POST', `http://${serverUrl}/hello`, true);
